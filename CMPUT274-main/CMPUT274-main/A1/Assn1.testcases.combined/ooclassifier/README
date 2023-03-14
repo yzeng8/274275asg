@@ -1,0 +1,27 @@
+Name: Steven Xu 
+ID: 1663052
+CCID: fx4
+CMPUT-274 Fa21
+Assignment 1
+Please read me!
+
+Include:
+README
+ooclassifer.py
+
+Notes:
+The python file ooclassifier.py extends the ooclassifierbase.py which uses the object-oriented programming. By adding additional functionality, ooclassifier.py is able to preprocess the words, count the frequency, and classify using both n-folds validation and one-fold validation
+
+The preprocess includes:
+1. Covert to lowercase
+2. Remoce all non-alphanumeric character
+3. Remove all numbers unless it's entirely number
+4. Remove stopwords.
+Also, we have 3 different modes which are keep-digits, keep-symbols and keep digits
+
+The word frequency will count the frequency of each words and return the top 5 frequencys and use its word as the target words. if the latter one has the same frequency as the the fifth frequency, we also include it as the target word.
+
+Cross validation will first split the training sets into 3-folds for the previous validation. Then we deepcoied the initial training set. Finally we created a method to add new training sets.
+
+Dicussion:
+Discussed with Xiangpeng Ji about part 3.

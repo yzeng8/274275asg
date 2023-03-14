@@ -1,0 +1,20 @@
+Name: Steven Xu 
+ID: 1663052
+CCID: fx4
+CMPUT-274 Fa21
+Weekly Exercise3
+Please read me!
+
+Include:
+README
+freq.py
+
+Notes:
+The python file freq.py will read the word input from a text file and count the frequency of each word. The output will be put into a different text file called '<input_filename>.out'. 
+
+
+To use it:
+1. First move your test file and freq.py into the same directory.
+2. Use terminal to change directory into the directory you just did.
+3. Put the name of the filename into the  terminal as shown "python3 freq.py <inputfilename>" or create an makefile for simpler solution.
+4. Note that the input file should be exact 1 file, else our validator will show error.

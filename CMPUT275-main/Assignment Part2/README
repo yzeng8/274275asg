@@ -1,0 +1,23 @@
+Name: Steven Xu
+SID:  1663052
+CCID: fx4
+CMPUT-275 Wi22
+Assignment1 Part1
+Please read me!
+
+Include:
+soln/README
+soln/Makefile
+
+server/server.cpp
+server/Makefile
+
+Notes:
+In the assignment PartII, a client-server model is built. Now we are able to visualize the path between 2 points on a visible graph.
+
+How to use:
+1. Go to sub-directory in server and enter make in the command window
+2. Go back to the soln directory, enter make run, now you should be able to see a graph of edmonton map
+3. click random 2 points on the graph, then the path will be printed to the command window and we should be able to see lines showing the path between 2 points
+4. repeat step 3 or exit
+5. if want to rerun the program, make sure to make clean first then repeat step 1- 4

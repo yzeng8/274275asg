@@ -1,0 +1,24 @@
+Name: Steven Xu 
+ID: 1663052
+CCID: fx4
+CMPUT-274 Fa21
+Assignment 2
+Please read me!
+
+Include:
+README
+util.py
+
+Notes:
+The python file util.py which uses the object-oriented programming. By using the huffman tree given in the huffman, we can compress files into binary file with compress.py; also we can reverse the process by decompress.py
+
+The util.py includes:
+read_tree()
+decode_byte()
+decompress()
+write_tree()
+compress()
+ 
+
+Dicussion:
+Discussed with Yuyang Zeng about compress about dealing with None in compress and dealing with EOF error in decompress.

@@ -1,0 +1,7 @@
+Please read me!
+The file passworldvalidate.py waas make to test security and the validity of a passowrd. The named function is called validate(). The function generate is to generate a secure password(To be finishied.)
+
+To use it:
+1. First move your test file and passwordvalidate.py into the same directory.
+2. Use terminal to change directory into the directory yoU just did.
+

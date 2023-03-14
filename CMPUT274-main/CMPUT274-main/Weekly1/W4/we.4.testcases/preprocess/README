@@ -1,0 +1,23 @@
+Name: Steven Xu 
+ID: 1663052
+CCID: fx4
+CMPUT-274 Fa21
+Weekly Exercise4
+Please read me!
+
+Include:
+README
+preprocess.py
+
+Notes:
+The python file preprocess.py will read the text input and preprocess the word. The output will be printed.
+The preprocess includes:
+1. Covert to lowercase
+2. Remoce all non-alphanumeric character
+3. Remove all numbers unless it's entirely number
+4. Remove stopwords.
+Also, we have 3 different modes which are keep-digits, keep-symbols and keep digits
+
+To use it:
+1. First enter python3 preprocess.py in the terminal, if using different modes, please then enter one of (keep-digits, keep-symbols and keep digits). Or create a  makefile for simpler solution
+2. The final output will be printed.

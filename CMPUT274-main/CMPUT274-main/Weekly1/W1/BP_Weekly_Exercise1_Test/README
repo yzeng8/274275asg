@@ -1,0 +1,18 @@
+The file bp_weekly_exercise1_test.py was made to compare the test values from the exercise automatically. You can also check your generate() function (more info below). It is important that your defined functions are named validate() and generate() or else you will get an error. 
+
+*DISCLAIMER: I've just quickly written this program on the VM for my purposes and I cannot guarantee that it works perfectly or on your system. Use at your own discretion.*
+
+To use it:
+
+1. Copy or move your weekly exercise 1 file (passwordvalidate.py) into the same folder as the included test files
+
+2. Use your terminal to enter this folder (navigate using 'cd' command)
+
+3. In the terminal type 'make' (without the single quotes, ''), hit enter
+
+4. You will be prompted to select either 1 (validate function test) or 2 (generate function test: you will again be prompted to enter the number of passwords to generate)
+
+5. The program will print that the test was successful if your function passed all 50 test inputs. If it does not pass all the test inputs, it should tell you which inputs did not pass so you can troubleshoot your defined function in your exercise file. If you selected generate(), it will generate the entered amount of passwords (of length 8-20 by default) and report if all of them are considered SECURE. The test will automatically stop if it finds an INSECURE or INVALID password was generated.  
+
+
+Let me know if you are experiencing any issues or unexpected behaviour with the program
